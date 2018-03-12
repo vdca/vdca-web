@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d957e85140d3985dc20aeb4ce76b3a742965dedee88f96ab728ec6add30dcf79
-size 660
+<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    {{ with .Params.authors }}
+      {{- delimit . ", " | markdownify -}}
+    {{- end -}}
+  </span>.
+  <a href="{{ .Permalink }}" itemprop="name">{{ .Title }}</a>.
+  {{ if .Params.publication_short }}
+    {{- .Params.publication_short | markdownify -}},
+  {{ else if .Params.publication }}
+    {{- .Params.publication | markdownify -}},
+  {{ end }}
+  {{- .Date.Format "2006" -}}.
+  <p>{{ partial "publication_links" (dict "content" . "is_list" 1) }}</p>
+</div>

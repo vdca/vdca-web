@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:edf4e962d12ac9133b10b9ce2a9740655ee975573c29c5193afb95ac3d5d2f2d
-size 550
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+{{ partial "header_image.html" . }}
+
+<div class="universal-wrapper">
+
+  <h1>{{ .Title | default (i18n "posts") }}</h1>
+
+  {{ with .Content }}
+  <div class="article-style" itemprop="articleBody">{{ . }}</div>
+  {{ end }}
+
+  {{ $paginator := .Paginate .Data.Pages }}
+  {{ range $paginator.Pages }}
+    {{ $params := dict "post" . }}
+    {{ partial "post_li" $params }}
+  {{ end }}
+
+  {{ partial "pagination" . }}
+
+</div>
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}
