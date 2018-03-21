@@ -35,4 +35,4 @@ weight = 5
 
 # About
 
-I'm interested in comparative analyses of cultural data, like language, music and food. Particularly: phonology, textsetting, language of perception, and fermentation processes.
+I'm interested in the comparative analysis of cultural data; particularly language, music and food; particularly phonology, textsetting, language of perception, and fermentation processes.
