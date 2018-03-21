@@ -8,12 +8,12 @@ date = "2018-03-12T00:00:00"
 weight = 5
 
 # List your academic interests.
-[interests]
-  interests = [
-    "Artificial Intelligence",
-    "Linguistics",
-    "Ethnomusicology"
-  ]
+# [interests]
+#   interests = [
+#     "Linguistics",
+#     "Ethnomusicology",
+#     "Data analysis"
+#   ]
 
 # List your qualifications (such as academic degrees).
 # [[education.courses]]
@@ -33,6 +33,6 @@ weight = 5
  
 +++
 
-# Biography
+# About
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I'm interested in comparative analyses of cultural data, like language, music and food. Particularly: phonology, textsetting, language of perception, and fermentation processes.
