@@ -35,7 +35,7 @@ selected = false
 projects = []
 
 # Links (optional).
-url_pdf = "pdf/decastro-arrazola2015_isogloss.pdf"
+url_pdf = "pdf/2015_isogloss.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
