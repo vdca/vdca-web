@@ -17,7 +17,7 @@ authors = ["V. deCastro-Arrazola"]
 publication_types = ["6"]
 
 # Publication name and optional abbreviated version.
-publication = "In: *Metrics, Music and Mind. Linguistic, Metrical and Cognitive Implications in Sung Verse*"
+publication = "In: *Metrics, Music and Mind. Linguistic, Metrical and Cognitive Implications in Sung Verse*, Peter Lang"
 
 # Abstract and optional shortened version.
 abstract = ""
