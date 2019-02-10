@@ -1,10 +1,3 @@
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <a href="{{ .Permalink }}" itemprop="name">{{ .Title }}</a>
-  <div itemprop="author">
-    {{ with .Params.authors }}
-      {{- delimit . ", " | markdownify -}}
-    {{- end -}}
-  </div>
-  <p>{{ partial "publication_links" (dict "content" . "is_list" 1) }}</p>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:1179bfe9a2e499206ed644c2200e6915a868b5f68a06f9619f421c7cac261885
+size 440
