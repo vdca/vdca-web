@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:631b67acefdacea00851dbab7e0a3d3f14d45ace39cbdda3d20563a6f45f3ac7
-size 297
+{{ if .Params.header.image }}
+<div class="article-header">
+  <img src="{{ "/img/" | relURL }}{{ .Params.header.image }}" class="article-banner" itemprop="image">
+  {{ with .Params.header.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
+</div>
+{{end}}

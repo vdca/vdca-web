@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5f01b713e9a539347853ff3a0eae11e51cd3d4ca7f7ba3651ae299748ed77165
-size 189
+{{ if and .Site.DisqusShortname (not (or .Site.Params.disable_comments .Params.disable_comments)) }}
+<section id="comments">
+  {{ template "_internal/disqus.html" . }}
+</section>
+{{ end }}
