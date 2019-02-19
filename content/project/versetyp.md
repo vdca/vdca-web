@@ -6,7 +6,7 @@ date = "2016-05-11"
 title = "Sources on verse systems"
 
 # Project summary to display on homepage.
-summary = "Different languages create verse according to different principles (e.g. counting syllables, following a pattern of accents or tones). This project wants to facilitate cross-linguistic comparisons of versification by gathering as many bibliographical references as possible, particularly on lesser-known languages."
+summary = "Different languages create verse according to different principles (e.g. counting syllables, following a pattern of accents or tones). This project wants to facilitate cross-linguistic comparisons of versification by gathering bibliographical references about the structural principles underlying songs and poems, particularly in lesser-known languages."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "versetyp.png"
