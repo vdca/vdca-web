@@ -13,7 +13,7 @@ projects = []
 tags = []
 url_pdf = "https://academic.oup.com//jole/advance-article/doi/10.1093/jole/lzy013/5299173?guestAccessKey=b2181a99-8c38-48c5-989e-4f1f9a81ab49"
 url_preprint = ""
-url_code = ""
+url_code = "https://github.com/vdca/hch2"
 url_dataset = ""
 url_project = ""
 url_slides = ""
