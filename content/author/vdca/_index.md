@@ -16,7 +16,7 @@ organizations = [ { name = "Leiden University", url = "" } ]
 bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "varun.dca@protonmail.com"
+email = "varun.dca@tuta.io"
 
 # List (academic) interests or hobbies
 interests = [
@@ -46,7 +46,7 @@ interests = [
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:varun.dca@protonmail.com"  # for a link to contact form use #contact . For a direct email link, use "mailto:test@example.org".
+  link = "mailto:varun.dca@tuta.io"  # for a link to contact form use #contact . For a direct email link, use "mailto:test@example.org".
 
 [[social]]
   icon = "orcid"

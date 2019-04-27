@@ -59,7 +59,7 @@ defaultContentLanguageInSubdir = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "ogia_.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "varun.dca@protonmail.com"
+  email = "varun.dca@tuta.io"
   # address = "Building 1 Room 1, Stanford University, California, 90210, USA"
   # office_hours = "Monday 10:00 to 13:00 or email for appointment"
   # phone = "+31642582999"
@@ -217,7 +217,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:varun.dca@protonmail.com"
+    link = "mailto:varun.dca@tuta.io"
     
   [[params.social]]
     icon = "orcid"
