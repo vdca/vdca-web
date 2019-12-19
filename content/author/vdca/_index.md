@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Varuṇ deCastro-Arrazola"
+name = "Varuṇ DC Arrazola"
 
 # Is this the primary user of the site?
 superuser = true
@@ -10,7 +10,7 @@ role = ""
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Leiden University", url = "" } ]
+organizations = [ { name = "UPV/EHU (University of the Basque Country)", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""
