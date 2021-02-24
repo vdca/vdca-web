@@ -28,4 +28,4 @@ caption = ""
 
 +++
 
-Different languages create verse according to different principles (e.g. counting syllables, following a pattern of accents or tones). This project wants to facilitate cross-linguistic comparisons of versification by gathering as many bibliographical references as possible, particularly on lesser-known languages.
+Different languages create verse according to different principles (e.g. counting syllables, following a pattern of accents or tones). This project wants to facilitate cross-linguistic comparisons of versification by gathering bibliographical references as possible, particularly on lesser-known languages.
